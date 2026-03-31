@@ -8,7 +8,7 @@
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
     <!-- Bootstrap -->
@@ -25,8 +25,21 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
   </head>
   <body>
+    <!-- ===== TOP ANNOUNCEMENT BAR ===== -->
+    <div class="top-offer-bar">
+      <div class="offer-wrapper">
+        <div class="offer-left">
+          Free Delivery Above ₹499 | Shop Now
+        </div>
+
+        <div class="offer-center">🌿 Get 4 Plants @ Just ₹699!</div>
+
+        <div class="offer-right">Next Day Delivery Available</div>
+      </div>
+    </div>
     <header class="header-wrapper">
       <!-- ================= TOP HEADER ================= -->
       <div class="top-header">
@@ -35,13 +48,17 @@
         >
           <!-- LOGO -->
           <div class="logo">
-            <h2>🌿 <span>Plant</span>ify</h2>
+            <a href="#">
+              <img src="images/logo/for web.jpg.jpeg" alt="Plantify Logo" />
+            </a>
           </div>
 
           <!-- SEARCH (LONG PREMIUM) -->
           <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
             <input
               type="text"
+              id="searchInput"
               placeholder="Search plants, seeds, planters..."
             />
           </div>
@@ -80,6 +97,40 @@
                   <li><a class="dropdown-item" href="#">Lucky Plants</a></li>
                   <li><a class="dropdown-item" href="#">Starter Kits</a></li>
                   <li><a class="dropdown-item" href="#">Gift Combos</a></li>
+                  <li><a class="dropdown-item" href="#">XL Plants</a></li>
+                  <li><a class="dropdown-item" href="#">Indoor Plants</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Flowering Plants</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Low Maintenance Plants</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Air Purifying Plants</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Baskets</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Low Light Plants</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Cacti and Succulents Plants</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Hanging Planters Plants</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Medicinal & Aromatic Plants</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Pet-Friendly Plants</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Fruit Plants</a></li>
                 </ul>
               </li>
 
@@ -90,6 +141,15 @@
                   <li><a class="dropdown-item" href="#">Vegetable</a></li>
                   <li><a class="dropdown-item" href="#">Flower</a></li>
                   <li><a class="dropdown-item" href="#">Herbs</a></li>
+                  <li><a class="dropdown-item" href="#">Flower Seeds</a></li>
+                  <li><a class="dropdown-item" href="#">Vegetable Seeds</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Microgreen Seeds</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Herb Seeds</a></li>
+                  <li><a class="dropdown-item" href="#">Flower Bulbs</a></li>
+                  <li><a class="dropdown-item" href="#">Earth Seeds</a></li>
+                  <li><a class="dropdown-item" href="#">Fruit Seeds</a></li>
                 </ul>
               </li>
 
@@ -99,6 +159,21 @@
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Ceramic</a></li>
                   <li><a class="dropdown-item" href="#">Plastic</a></li>
+                  <li><a class="dropdown-item" href="#">Plastic Pots</a></li>
+                  <li><a class="dropdown-item" href="#">Ceramic Pots</a></li>
+                  <li><a class="dropdown-item" href="#">Clay Pots</a></li>
+                  <li><a class="dropdown-item" href="#">Planters</a></li>
+                  <li><a class="dropdown-item" href="#">Metal Planters</a></li>
+                  <li><a class="dropdown-item" href="#">Wooden Planters</a></li>
+                  <li><a class="dropdown-item" href="#">3D Printed Pots</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Roto Mould Planter</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">FRP Planters</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Self Watering Planters</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Wall Planters</a></li>
                 </ul>
               </li>
 
@@ -120,6 +195,28 @@
                   <li>
                     <a class="dropdown-item" href="#"
                       >Garden Decor & Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Potting Mix and Fertilizers</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Garden Tools</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Watering Tools and Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Garden Decor & Accessories</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Pest Control</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Video Consultation - Doctor Green</a
                     >
                   </li>
                 </ul>
@@ -150,7 +247,7 @@
           <!-- SLIDE 1 -->
           <div class="hero-slide">
             <div class="container">
-              <div class="hero-content">
+              <div class="hero-content reveal">
                 <span class="hero-tag">🌱 Premium Indoor Plants</span>
                 <h1>
                   Transform Your Space <br />
@@ -161,8 +258,8 @@
                   plants.
                 </p>
                 <div class="hero-buttons">
-                  <a href="#" class="btn hero-btn">Shop Plants</a>
-                  <a href="#" class="btn hero-outline">Explore</a>
+                  <a class="hero-btn btn-ripple">Shop Plants</a>
+                  <a class="hero-outline btn-ripple">Explore</a>
                 </div>
               </div>
             </div>
@@ -171,7 +268,7 @@
           <!-- SLIDE 2 -->
           <div class="hero-slide">
             <div class="container">
-              <div class="hero-content">
+              <div class="hero-content reveal">
                 <span class="hero-tag">🍃 Fresh & Organic</span>
                 <h1>Nature That <span>Heals Your Mind</span></h1>
                 <p>
@@ -186,8 +283,8 @@
                   <span>✔ Fast Delivery</span>
                 </div>
                 <div class="hero-buttons">
-                  <a href="#" class="btn hero-btn">Discover</a>
-                  <a href="#" class="btn hero-outline">Learn More</a>
+                  <a class="hero-btn btn-ripple">Discover</a>
+                  <a class="hero-outline btn-ripple">Learn More</a>
                 </div>
               </div>
             </div>
@@ -196,7 +293,7 @@
           <!-- SLIDE 3 -->
           <div class="hero-slide">
             <div class="container">
-              <div class="hero-content">
+              <div class="hero-content reveal">
                 <span class="hero-tag">🌿 Best Collection</span>
                 <h1>Grow Your <span>Green Lifestyle</span></h1>
                 <p>
@@ -210,8 +307,8 @@
                   <span>✔ Fast Delivery</span>
                 </div>
                 <div class="hero-buttons">
-                  <a href="#" class="btn hero-btn">Start Now</a>
-                  <a href="#" class="btn hero-outline">View Plants</a>
+                  <a class="hero-btn btn-ripple">Start Now</a>
+                  <a class="hero-outline btn-ripple">View Plants</a>
                 </div>
               </div>
             </div>
@@ -219,43 +316,166 @@
         </div>
       </div>
     </section>
-    <section class="category-section">
-  <div class="decor-leaf-top">🍃</div>
-  <div class="decor-leaf-bottom">🍃</div>
+    <section class="features">
+      <div class="features-wrapper">
+        <!-- ITEM 1 -->
+        <div class="feature-item reveal card-hover">
+          <div class="feature-icon">
+            <!-- SOLID TRUCK ICON -->
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M3 6h11v9H3zM14 9h3l4 4v2h-7zM7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm11 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
+              />
+            </svg>
+          </div>
 
-  <h2>Shop By Category</h2>
+          <h3>AFFORDABLE NATIONWIDE SHIPPING</h3>
+          <p>
+            No size limit. We ship everywhere in India at the most affordable
+            rates.
+          </p>
+        </div>
 
-  <div class="categories-grid">
-    <a href="#" class="category-card">
-      <img src="images/categories/indoor.png"alt="Indoor Plants" loading="lazy">
-      <div class="category-title">Indoor Plants</div>
-    </a>
+        <!-- ITEM 2 -->
+        <div class="feature-item reveal card-hover">
+          <div class="feature-icon">
+            <!-- SOLID HEART HAND ICON -->
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"
+              />
+            </svg>
+          </div>
 
-    <a href="#" class="category-card">
-      <img src="images/categories/outdoor.png" alt="Outdoor Plants" loading="lazy">
-      <div class="category-title">Outdoor Plants</div>
-    </a>
+          <h3>NEXT LEVEL SERVICE</h3>
+          <p>
+            Quick, efficient, helpful. In-store and remote support that actually
+            works.
+          </p>
+        </div>
 
-    <a href="#" class="category-card">
-      <img src="images/categories/succulends.png" alt="Succulents" loading="lazy">
-      <div class="category-title">Succulents</div>
-    </a>
+        <!-- ITEM 3 -->
+        <div class="feature-item reveal card-hover">
+          <div class="feature-icon">
+            <!-- SOLID PLANT ICON -->
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2c4 3 6 6 6 10a6 6 0 0 1-12 0c0-4 2-7 6-10z" />
+              <path d="M4 20h16" />
+            </svg>
+          </div>
 
-    <a href="#" class="category-card">
-      <img src="images/categories/accessories.png" alt="Planters & Accessories" loading="lazy">
-      <div class="category-title">Planters & Accessories</div>
-    </a>
-  </div>
+          <h3>FREE CARE INSTRUCTIONS</h3>
+          <p>
+            Extensive plant care guides and expert knowledge for every plant
+            lover.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="pb-section transform-section">
+      <!-- 🔥 NEW PREMIUM SUBTEXT -->
+      <div class="pb-header">
+        <h2 class="pb-heading">Where Spaces Turn Into Living Art 🌿</h2>
+        <p class="pb-subtext">
+          Experience how a touch of greenery can redefine your space — from
+          ordinary corners to aesthetic, calming environments.
+        </p>
+      </div>
 
-  <a href="#" class="show-more">Show More →</a>
-</section>
+      <div class="pb-container">
+        <!-- CARD 1 -->
+        <div class="pb-card transform-card">
+          <div class="pb-img-box transform-img">
+            <img src="images/transform/balcony.png" class="before" />
+            <img src="images/transform/balcony1.png" class="after" />
+            <div class="pb-badge">WOW</div>
+          </div>
+
+          <div class="pb-content">
+            <div class="pb-title">Balcony Makeover</div>
+
+            <!-- 🔥 NEW LINE -->
+            <p class="pb-desc">
+              Turn compact balconies into refreshing green escapes.
+            </p>
+
+            <div class="pb-tags">
+              <span class="pb-tag">Small Space</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="pb-card transform-card">
+          <div class="pb-img-box transform-img">
+            <img src="images/transform/living.png" class="before" />
+            <img src="images/transform/living1.png" class="after" />
+            <div class="pb-badge">BEST</div>
+          </div>
+
+          <div class="pb-content">
+            <div class="pb-title">Living Room Upgrade</div>
+
+            <p class="pb-desc">
+              Elevate your interiors with elegant plant arrangements.
+            </p>
+
+            <div class="pb-tags">
+              <span class="pb-tag">Indoor Plants</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="pb-card transform-card">
+          <div class="pb-img-box transform-img">
+            <img src="images/transform/desk.png" class="before" />
+            <img src="images/transform/desk1.png" class="after" />
+            <div class="pb-badge">TREND</div>
+          </div>
+
+          <div class="pb-content">
+            <div class="pb-title">Office Desk Setup</div>
+
+            <p class="pb-desc">
+              Boost focus and creativity with a natural workspace.
+            </p>
+
+            <div class="pb-tags">
+              <span class="pb-tag">Minimal</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="pb-card transform-card">
+          <div class="pb-img-box transform-img">
+            <img src="images/transform/bedroom.png" class="before" />
+            <img src="images/transform/bedroom1.png" class="after" />
+            <div class="pb-badge">PREMIUM</div>
+          </div>
+
+          <div class="pb-content">
+            <div class="pb-title">Bedroom Corner</div>
+
+            <p class="pb-desc">
+              Create a peaceful, cozy vibe with soft green accents.
+            </p>
+
+            <div class="pb-tags">
+              <span class="pb-tag">Luxury Setup</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="pb-section">
       <h1 class="pb-heading">Plant Bundles</h1>
 
       <div class="pb-container">
         <!-- Card 1 -->
-        <div class="pb-card">
+        <div class="pb-card reveal card-hover shine">
           <div class="pb-img-box">
             <img src="images/Card/card1.png" alt="" />
             <div class="pb-badge">30% OFF</div>
@@ -273,7 +493,7 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="pb-card">
+        <div class="pb-card reveal card-hover shine">
           <div class="pb-img-box">
             <img src="images/Card/card2.png" alt="" />
             <div class="pb-badge">40% OFF</div>
@@ -291,7 +511,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="pb-card">
+        <div class="pb-card reveal card-hover shine">
           <div class="pb-img-box">
             <img src="images/Card/card3.png" alt="" />
             <div class="pb-badge">50% OFF</div>
@@ -309,7 +529,7 @@
         </div>
 
         <!-- Card 4 -->
-        <div class="pb-card">
+        <div class="pb-card reveal card-hover shine">
           <div class="pb-img-box">
             <img src="images/Card/card4.png" alt="" />
             <div class="pb-badge">35% OFF</div>
@@ -337,7 +557,7 @@
 
       <div class="pb-container">
         <!-- Card 1 -->
-        <div class="pb-card">
+        <div class="pb-card reveal card-hover shine">
           <div class="pb-img-box">
             <img src="images/XL Card/card1.png" alt="" />
             <div class="pb-badge">25% OFF</div>
@@ -355,7 +575,7 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="pb-card">
+        <div class="pb-card reveal card-hover shine">
           <div class="pb-img-box">
             <img src="images/XL Card/card2.png" alt="" />
             <div class="pb-badge">30% OFF</div>
@@ -373,7 +593,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="pb-card">
+        <div class="pb-card reveal card-hover shine">
           <div class="pb-img-box">
             <img src="images/XL Card/card3.png" alt="" />
             <div class="pb-badge">20% OFF</div>
@@ -391,7 +611,7 @@
         </div>
 
         <!-- Card 4 -->
-        <div class="pb-card">
+        <div class="pb-card reveal card-hover shine">
           <div class="pb-img-box">
             <img src="images/XL Card/card4.png" alt="" />
             <div class="pb-badge">35% OFF</div>
@@ -413,19 +633,20 @@
         <a href="#" class="pb-view-btn">View More →</a>
       </div>
     </section>
+
     <section class="promo-section">
       <div class="promo-container">
         <!-- 1 -->
-        <div class="promo-card">
+        <div class="promo-card reveal card-hover">
           <div class="promo-img-box">
-            <img src="images/Promo/card1.png" alt="" />
+            <img src="images/Promo/card5.png" alt="" />
             <div class="promo-title">Combos</div>
           </div>
           <p class="promo-text">Get 4 at ₹699</p>
         </div>
 
         <!-- 2 -->
-        <div class="promo-card">
+        <div class="promo-card reveal card-hover">
           <div class="promo-img-box">
             <img src="images/Promo/card2.png" alt="" />
             <div class="promo-title">Plant Care</div>
@@ -434,28 +655,125 @@
         </div>
 
         <!-- 3 -->
-        <div class="promo-card">
+        <div class="promo-card reveal card-hover">
           <div class="promo-img-box">
-            <img src="images/Promo/card3.png" alt="" />
+            <img src="images/Promo/card6.png" alt="" />
             <div class="promo-title">Ceramics</div>
           </div>
           <p class="promo-text">Upto 40% Off</p>
         </div>
 
         <!-- 4 -->
-        <div class="promo-card">
+        <div class="promo-card reveal card-hover">
           <div class="promo-img-box">
-            <img src="images/Promo/card4.png" alt="" />
+            <img src="images/Promo/card7.png" alt="" />
             <div class="promo-title">Seeds</div>
           </div>
           <p class="promo-text">Starting at ₹99</p>
         </div>
       </div>
     </section>
+    <h1 class="pb-heading">Plant Care</h1>
+    <div class="pb-container">
+      <!-- CARD 1 -->
+      <div class="pb-card reveal card-hover shine">
+        <div class="pb-img-box">
+          <img src="images/care/spray.png" alt="Mealybug Spray" />
+
+          <div class="pb-badge">🔥 Bestseller</div>
+
+          <div class="pb-rating">⭐ 3.9</div>
+        </div>
+
+        <div class="pb-content">
+          <div class="pb-title">Mealybug Magic Spray for Plant Protection</div>
+
+          <div class="pb-tags">
+            <span class="pb-tag">Plant Protector</span>
+          </div>
+
+          <div class="pb-price">₹399 <span class="pb-old">₹999</span></div>
+
+          <a href="#" class="pb-btn">VIEW PRODUCT</a>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="pb-card reveal card-hover shine">
+        <div class="pb-img-box">
+          <img src="images/care/fertilizer.png" alt="Fertilizer Sticks" />
+
+          <div class="pb-badge">🔥 Bestseller</div>
+
+          <div class="pb-rating">⭐ 4.7</div>
+        </div>
+
+        <div class="pb-content">
+          <div class="pb-title">
+            Plant Food Fertilizer Green Sticks for All Plants
+          </div>
+
+          <div class="pb-tags">
+            <span class="pb-tag">Growth Booster</span>
+          </div>
+
+          <div class="pb-price">₹299 <span class="pb-old">₹399</span></div>
+
+          <a href="#" class="pb-btn">VIEW PRODUCT</a>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="pb-card reveal card-hover shine">
+        <div class="pb-img-box">
+          <img src="images/care/vermicompost.png" alt="Vermicompost" />
+
+          <div class="pb-badge">33% OFF</div>
+
+          <div class="pb-rating">⭐ 4.8</div>
+        </div>
+
+        <div class="pb-content">
+          <div class="pb-title">Vermicompost Organic Fertilizer</div>
+
+          <div class="pb-tags">
+            <span class="pb-tag">Growth Booster</span>
+          </div>
+
+          <div class="pb-price">₹199 <span class="pb-old">₹299</span></div>
+
+          <a href="#" class="pb-btn">VIEW PRODUCT</a>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="pb-card reveal card-hover shine">
+        <div class="pb-img-box">
+          <img src="images/care/soil.png" alt="Soil Mix" />
+
+          <div class="pb-badge">40% OFF</div>
+
+          <div class="pb-rating">⭐ 4.8</div>
+        </div>
+
+        <div class="pb-content">
+          <div class="pb-title">Garden Soil Mix for Healthy Plants</div>
+
+          <div class="pb-tags">
+            <span class="pb-tag">Growth Booster</span>
+          </div>
+
+          <div class="pb-price">₹299 <span class="pb-old">₹499</span></div>
+
+          <a href="#" class="pb-btn">VIEW PRODUCT</a>
+        </div>
+      </div>
+    </div>
+
     <section class="why-section">
       <div class="why-container">
         <!-- LEFT IMAGE -->
-        <div class="why-img">
+        <div class="why-img reveal parallax">
           <img src="images/why/image.png" alt="Gardening" />
           <div class="why-badge">Trusted Across India 🌿</div>
         </div>
@@ -466,33 +784,29 @@
 
           <p class="why-desc">
             At <strong>Nature and Science Garden Center</strong>, we believe
-            that every space – whether a cozy balcony, a spacious terrace, or a
-            commercial landscape – has the potential to bloom into a green
-            paradise. Our mission is to make gardening accessible, enjoyable,
-            and enriching for everyone across India.
-          </p>
-
-          <p class="why-desc">
-            With a deep love for nature and a strong foundation in horticultural
-            knowledge, we combine tradition with innovation to offer a seamless
-            gardening experience.
+            every space can bloom into a green paradise. Our goal is to make
+            gardening simple, enjoyable, and accessible for everyone.
           </p>
 
           <div class="why-points">
-            <div class="why-item">
-              🌿 <span>Over 1000+ Carefully Curated Products</span>
+            <div class="why-item reveal">
+              <span>🌿</span>
+              <p>1000+ Curated Plant & Garden Products</p>
             </div>
 
-            <div class="why-item">
-              🪴 <span>Wide Range – Plants, Pots, Tools & More</span>
+            <div class="why-item reveal">
+              <span>🪴</span>
+              <p>Wide Range – Plants, Pots & Accessories</p>
             </div>
 
-            <div class="why-item">
-              🚚 <span>All India Delivery at Your Fingertips</span>
+            <div class="why-item reveal">
+              <span>🚚</span>
+              <p>Fast & Reliable Delivery Across India</p>
             </div>
 
-            <div class="why-item">
-              🌱 <span>Quality Assured with Expert Knowledge</span>
+            <div class="why-item reveal">
+              <span>🌱</span>
+              <p>Expert Quality & Healthy Plants Guaranteed</p>
             </div>
           </div>
         </div>
@@ -509,7 +823,7 @@
 
       <div class="blog-container">
         <!-- CARD 1 -->
-        <div class="blog-card">
+        <div class="blog-card reveal card-hover">
           <img src="images/blog/blog1.png" alt="" />
 
           <div class="blog-content">
@@ -528,7 +842,7 @@
         </div>
 
         <!-- CARD 2 -->
-        <div class="blog-card">
+        <div class="blog-card reveal card-hover">
           <img src="images/blog/blog2.png" alt="" />
 
           <div class="blog-content">
@@ -547,7 +861,7 @@
         </div>
 
         <!-- CARD 3 -->
-        <div class="blog-card">
+        <div class="blog-card reveal card-hover">
           <img src="images/blog/blog3.png" alt="" />
 
           <div class="blog-content">
@@ -587,11 +901,11 @@
       <!-- REVIEWS -->
       <div class="review-slider">
         <!-- CARD -->
-        <div class="review-card">
+        <div class="review-card reveal card-hover">
           <div class="review-top">
             <img src="images/review/face1.png" />
             <div>
-              <h4>Ar. Kaleswar Nethi</h4>
+              <div>Ar. Kaleswar Nethi</div>
               <span>2 months ago</span>
             </div>
           </div>
@@ -604,11 +918,11 @@
           </p>
         </div>
 
-        <div class="review-card">
+        <div class="review-card reveal card-hover">
           <div class="review-top">
             <img src="images/review/face2.png" />
             <div>
-              <h4>Ramkumar Chilukuri</h4>
+              <div>Ramkumar Chilukuri</div>
               <span>2 months ago</span>
             </div>
           </div>
@@ -621,11 +935,11 @@
           </p>
         </div>
 
-        <div class="review-card">
+        <div class="review-card reveal card-hover">
           <div class="review-top">
             <img src="images/review/face3.png" />
             <div>
-              <h4>Jai Jayaraghuram</h4>
+              <div>Jai Jayaraghuram</div>
               <span>2 months ago</span>
             </div>
           </div>
@@ -649,7 +963,7 @@
       <div class="footer-container">
         <!-- ABOUT -->
         <div class="footer-col">
-          <h4>ABOUT US</h4>
+          <div>ABOUT US</div>
           <ul>
             <li><a href="#">Our Story</a></li>
             <li><a href="#">Contact Us</a></li>
@@ -660,7 +974,7 @@
 
         <!-- CUSTOMER -->
         <div class="footer-col">
-          <h4>CUSTOMER CARE</h4>
+          <div>CUSTOMER CARE</div>
           <ul>
             <li><a href="#">Shipping Policy</a></li>
             <li><a href="#">Terms & Conditions</a></li>
@@ -671,7 +985,7 @@
 
         <!-- OFFERS -->
         <div class="footer-col">
-          <h4>OFFERS & REWARDS</h4>
+          <div>OFFERS & REWARDS</div>
           <ul>
             <li><a href="#">Rewards Club</a></li>
             <li><a href="#">Coupons</a></li>
@@ -680,7 +994,7 @@
 
         <!-- CONTACT -->
         <div class="footer-col">
-          <h4>GET IN TOUCH</h4>
+          <div>GET IN TOUCH</div>
           <p>📱 WhatsApp: 7090970909</p>
           <p>📞 +91 9129912991</p>
           <p>✉ support@plants.com</p>
@@ -688,7 +1002,7 @@
 
         <!-- NEWSLETTER -->
         <div class="footer-col newsletter">
-          <h4>SIGN UP FOR NEWSLETTER</h4>
+          <div>SIGN UP FOR NEWSLETTER</div>
 
           <div class="newsletter-box">
             <input type="email" placeholder="Enter email address" />

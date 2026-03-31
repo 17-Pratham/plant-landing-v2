@@ -1,0 +1,79 @@
+/* ======================= MOBILE RESPONSIVE CSS ======================= */
+
+/* ===== MOBILE PHONES (up to 480px) ===== */
+@media (max-width: 480px) {
+
+  /* ===== HERO / BANNER ===== */
+  .hero-bg { height: 50vh; min-height: 250px; background-size: cover; background-position: center; }
+  .hero-content { max-width: 320px; padding-top: 50px; margin-top: 20px; text-align: center; }
+  .hero-content h1 { font-size: 26px; line-height: 1.2; }
+  .hero-content p { font-size: 13px; }
+  .hero-buttons { flex-direction: column; gap: 10px; }
+  .hero-btn, .hero-outline { font-size: 13px; padding: 8px 18px; }
+
+  /* ===== FEATURES SECTION ===== */
+  .features-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 12px;
+  }
+  .feature-item h3 { font-size: 15px; }
+  .feature-item p { font-size: 13px; }
+
+  /* ===== PRODUCT / CARDS SECTION ===== */
+  .pb-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 0 12px;
+    scroll-behavior: smooth;
+  }
+  .pb-container::-webkit-scrollbar { height: 6px; }
+  .pb-container::-webkit-scrollbar-thumb { background: #66bb6a; border-radius: 3px; }
+  .pb-img-box img { height: 180px; object-fit: cover; border-radius: 12px; }
+  .pb-title { font-size: 15px; }
+  .pb-desc { font-size: 12px; }
+  .pb-tag { font-size: 10px; padding: 3px 8px; }
+  .pb-price { font-size: 20px; }
+
+  /* ===== PROMO SECTION ===== */
+  .promo-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 0 12px;
+    scroll-behavior: smooth;
+  }
+  .promo-container::-webkit-scrollbar { height: 6px; }
+  .promo-container::-webkit-scrollbar-thumb { background: #66bb6a; border-radius: 3px; }
+  .promo-title { font-size: 16px; }
+  .promo-text { font-size: 13px; }
+  .promo-card img { height: 180px; object-fit: cover; border-radius: 12px; }
+
+  /* ===== TRANSFORM / BEFORE-AFTER SECTION ===== */
+  .transform-wrapper {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 0 12px;
+    scroll-behavior: smooth;
+  }
+  .transform-wrapper::-webkit-scrollbar { height: 6px; }
+  .transform-wrapper::-webkit-scrollbar-thumb { background: #66bb6a; border-radius: 3px; }
+  .transform-img img { height: 180px; object-fit: cover; border-radius: 12px; }
+
+  /* ===== WHY CHOOSE US SECTION ===== */
+  .why-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 12px;
+  }
+  .why-card h3 { font-size: 14px; }
+  .why-card p { font-size: 12px; }
+
+  /* ===== GENERAL SPACING ===== */
+  section { padding: 30px 0; }
+}
