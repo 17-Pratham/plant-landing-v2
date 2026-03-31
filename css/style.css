@@ -54,7 +54,7 @@ body::after {
   background-size: contain;
   background-position: center;
 
-  opacity: 0.06;
+  opacity: 0.05;
 
   pointer-events: none;
   z-index: -1;
@@ -141,6 +141,8 @@ h5 {
   background: #ffffff; /* solid white */
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
   transition: transform 0.4s ease;
+  
+  
 }
 .header-hidden {
   transform: translateY(-100%);
@@ -155,8 +157,9 @@ h5 {
 
 /* LOGO */
 .logo img {
-  height: 60px;   /* bigger */
+  height: 80px;
   object-fit: contain;
+  margin-top: 20px; /* 10px → 20px, ya apne hisab se */
 }
 /* SEARCH BOX */
 .search-box {
